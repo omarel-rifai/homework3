@@ -1,0 +1,28 @@
+<!-- Copyright (c) by Omar El-Rifai
+ Omar_ElRifai@student.uml.edu
+ The purpose of the program is to create a dynamic and interactive multiplication table, displaying the intended
+ error messages, as well as being able to be used properly -->
+
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/style.css">
+<script src="dynamictable.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Multiplication Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Dynamic Multiplication Table</h1>
+    <form id="tableForm">
+        Min Column:<input type="number" id="minColumn">
+        Max Column:<input type="number" id="maxColumn">
+        Min Row:<input type="number" id="minRow">
+        Max Row:<input type="number" id="maxRow">
+        <button type="submit">Generate Table</button>
+    </form>
+    <div id="tableContainer"></div>
+    <script src="dynamictable.js"></script>
+</body>
+</html>
